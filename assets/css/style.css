@@ -30,3 +30,19 @@ img{
     right: 0;
     top:0;
 }
+
+/* cuori */
+.heart{
+    font-size: 30px;
+    display: inline-block;
+    color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    display: none;
+}
+
+/* hover cuori */
+.box:hover .heart{
+    display: inline;
+}
