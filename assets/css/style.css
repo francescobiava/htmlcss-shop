@@ -8,6 +8,8 @@
 
 img{
     width: 100%;
+    position: relative;
+    z-index: 0;
 }
 
 /* sconti */
@@ -29,16 +31,20 @@ img{
     position: absolute;
     right: 0;
     top:0;
+    z-index: 1;
 }
 
 /* cuori */
 .heart{
+    width: 50px;
+    text-align: center;
     font-size: 30px;
     display: inline-block;
     color: red;
     position: absolute;
     bottom: 10px;
-    left: 150px;
+    left: 125px;
+    z-index: 1;
     display: none;
 }
 
