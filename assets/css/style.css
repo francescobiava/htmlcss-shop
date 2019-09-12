@@ -3,8 +3,30 @@
     margin: 5px;
     width: 300px;
     display: inline-block;
+    position: relative;
 }
 
 img{
     width: 100%;
+}
+
+/* sconti */
+.sale.low{
+    background-color: red;
+}
+
+.sale.medium{
+    background-color: orange;
+}
+
+.sale.high{
+    background-color: green;
+}
+
+.sale{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top:0;
 }
