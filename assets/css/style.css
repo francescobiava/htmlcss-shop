@@ -1,0 +1,10 @@
+/* allineamento e dimensionamento box e img */
+.box{
+    margin: 5px;
+    width: 300px;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
